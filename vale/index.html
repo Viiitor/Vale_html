@@ -9,27 +9,30 @@
 </head>
 <body>
     <div class="vale">
-        <h1>Criando um vale</h1>
+        <h1>Vale</h1>
 
         <div class="valores">
-        <label>Número:</label>
-        <input placeholder="Número do Vale" type="number" id="numero" />
+        <label>Número (opcional):</label>
+        <input placeholder="Número do Vale" type="number" id="numero" class="numero"/>
        
         <label>Valor:</label>
-        <input placeholder="Insira o Valor" type="number" id="valor" />
+        <input placeholder="Insira o Valor" type="number" id="valor" class="valor" required/>
         </div>
 
-        <div class="textos">
+        <div class="nome">
         <label>Nome:</label>
-        <input placeholder="Insira seu Nome" type="text" id="nome" />
-        
+        <input placeholder="Nome Completo" type="text" id="nome" class="nome" required/>
+        </div>
+
+        <div class="cidade">
         <label>Cidade:</label>
-        <input placeholder="Insira sua Cidade" type="text" id="cidade" />
-       
+        <input placeholder="Insira sua Cidade" type="text" id="cidade" class="cidade" required/>
         
         <label>Data:</label>
-        <input type="date" id="data" />
+        <input type="date" id="data" class="cidade" required/>
         </div>
+
+        <button onclick="gerarVale()">Gerar Vale</button>
     </div>
 
     
