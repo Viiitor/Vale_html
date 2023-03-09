@@ -1,54 +1,82 @@
- body {
-     font-family: Arial, sans-serif;
-     background-color: #f0efef;
- }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0efef;
+    }
+    
+    h1 {
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    .vale {
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 20px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #8c8c8c;
+    background-color: #f2f2f255;
+    }
+    
 
- h1 {
-     text-align: center;
-     margin-top: 50px;
- }
-
- .vale {
-     border: 1px solid #000;
-     margin: 0 auto;
-     padding: 20px;
-     width: 550px;
-     border-radius: 10px;
-     box-shadow: 2px 2px 5px #8c8c8c;
-     background-color: #f2f2f255;
- }
-
- .valores{
-    display: inline-block;
-    margin: 10px;
- }
- .textos{
+    label {     
+        display: block;
+        margin-bottom: 5px;
+      }
+    
+      input[type="number"] {
+        display: block;
+        box-sizing: border-box;
+        width: 30%;
+        border-radius: 5px;
+        border: 1px solid #dfdddd;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+    
+    
+    input[type="text"].nome {
     display: block;
-    margin: 10px;
- }
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #dfdddd;
+    margin-bottom: 10px;
+    padding: 5px;
+    }
 
-  input[type="number"] {
-      box-sizing: border-box;
-      width: 35%;
-      border-radius: 5px;
-      border: 1px solid #dfdddd;
-      margin-bottom: 10px;
-      padding: 5px;
-  }
 
-   input[type="text"] {
-       box-sizing: border-box;
-       width: 40%;
-       border-radius: 5px;
-       border: 1px solid #dfdddd;
-       margin-bottom: 10px;
-       padding: 5px;
-   }
-    input[type="date"] {
-     box-sizing: border-box;
-     width: 30%;
-     border-radius: 5px;
-     border: 1px solid #dfdddd;
-     margin-bottom: 10px;
-     padding: 5px;
- }
+        input[type="text"].cidade {
+        display: block;
+        box-sizing: border-box;
+        width: 40%;
+        border-radius: 5px;
+        border: 1px solid #dfdddd;
+        margin-bottom: 10px;
+        padding: 5px;
+        }
+    
+        input[type="date"] {
+        display: block;
+        box-sizing: border-box;
+        width: 30%;
+        border-radius: 5px;
+        border: 1px solid #dfdddd;
+        margin-bottom: 10px;
+        padding: 5px;
+        }
+
+        button {
+            background-color: #4CAF50; /* cor de fundo */
+            color: white; /* cor do texto */
+            border: none; /* sem borda */
+            padding: 10px 20px; /* espaçamento interno */
+            text-align: center; /* alinhamento de texto */
+            text-decoration: none; /* sem decoração de texto */
+            display: inline-block; /* exibir como bloco */
+            font-size: 16px; /* tamanho da fonte */
+            border-radius: 5px; /* borda arredondada */
+            cursor: pointer; /* cursor de mão ao passar */
+            margin-top: 20px; /* margem superior */
+          }
+          
