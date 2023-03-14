@@ -1,82 +1,130 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0efef;
-    }
-    
-    h1 {
-    text-align: center;
-    margin-top: 50px;
-    }
-    
-    .vale {
-    border: 1px solid #000;
-    margin: 0 auto;
-    padding: 20px;
-    width: 550px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #8c8c8c;
-    background-color: #f2f2f255;
-    }
-    
+  font-family: Arial, sans-serif;
+  background-color: #f0efef;
+}
+  
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+  
 
-    label {     
-        display: block;
-        margin-bottom: 5px;
-      }
-    
-      input[type="number"] {
-        display: block;
-        box-sizing: border-box;
-        width: 30%;
-        border-radius: 5px;
-        border: 1px solid #dfdddd;
-        margin-bottom: 10px;
-        padding: 5px;
-      }
-    
-    
-    input[type="text"].nome {
-    display: block;
-    box-sizing: border-box;
-    width: 90%;
-    border-radius: 5px;
-    border: 1px solid #dfdddd;
-    margin-bottom: 10px;
-    padding: 5px;
-    }
+.numero, .valor {
+  display: inline-block;
+  width: 80%;
+  margin-right: 10px;
+}
+
+.vale, .box {
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 20px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #8c8c8c;
+  background-color: #f2f2f255;
+  margin-bottom: 20px;
+}
+
+label {     
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  display: block;
+  box-sizing: border-box;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #dfdddd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+  
+  
+input[type="text"].nome {
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #dfdddd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="text"].cpf {
+  display: block;
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #dfdddd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
 
 
-        input[type="text"].cidade {
-        display: block;
-        box-sizing: border-box;
-        width: 40%;
-        border-radius: 5px;
-        border: 1px solid #dfdddd;
-        margin-bottom: 10px;
-        padding: 5px;
-        }
-    
-        input[type="date"] {
-        display: block;
-        box-sizing: border-box;
-        width: 30%;
-        border-radius: 5px;
-        border: 1px solid #dfdddd;
-        margin-bottom: 10px;
-        padding: 5px;
-        }
+input[type="text"].cidade {
+  display: block;
+  box-sizing: border-box;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #dfdddd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+  
+input[type="date"] {
+  display: block;
+  box-sizing: border-box;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #dfdddd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
 
-        button {
-            background-color: #4CAF50; /* cor de fundo */
-            color: white; /* cor do texto */
-            border: none; /* sem borda */
-            padding: 10px 20px; /* espaçamento interno */
-            text-align: center; /* alinhamento de texto */
-            text-decoration: none; /* sem decoração de texto */
-            display: inline-block; /* exibir como bloco */
-            font-size: 16px; /* tamanho da fonte */
-            border-radius: 5px; /* borda arredondada */
-            cursor: pointer; /* cursor de mão ao passar */
-            margin-top: 20px; /* margem superior */
-          }
-          
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  
+}
+
+@media screen and (min-width: 901px) {
+ 
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imagem-pequena {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 190px;
+}
+
+a {
+  display: block; 
+  text-align: left;
+  margin-top: 10px; 
+}
